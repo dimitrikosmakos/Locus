@@ -4,7 +4,7 @@ Georgia Institute of Technology
 
 School of Electrical and Computer Engineering
 
-ECE4012 Spring2020 CapstoneProject
+ECE4012 Spring 2020 Capstone Project
 
 While public buildings provide documented busy hours of operation for customers to determine the best times to come, it is difficult to know the expected wait-time at any given moment. Real- time Indoor Line Tracking will utilize Time-of-Flight sensors to indicate the length of lines at popular restaurants and gather this information in an Android application for users to see the current calculated wait-times. The entire system consists of a sensor network and a mobile application; the centrally powered sensor network will send data to an online database via WiFi. The mobile application will then retrieve the data, calculate the expected wait times, and display a visual representation of the line so that users can decide when to come to the restaurant or where better to eat. The system setup consists of Time-of-Flight sensors which will each be connected with wires to the microcontroller along with the ESP8266 WiFi chip to provide WiFi connectivity. The system will be powered by a rechargeable power source. The sensor-wire setup will be covered with a protective casing and will be attached to the top of the retractable belt-barrier poles which forms the lines. When only the first sensor is on and is triggered for two seconds, it will communicate to the next sensor in line and start collecting data, and so on forth. The microcontroller will organize the sensor data and send the information to the Firebase database, where the phone app will collect the data and use it to provide a visual of the line length and calculate estimated wait-time.
 
