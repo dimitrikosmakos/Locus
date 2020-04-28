@@ -3,7 +3,7 @@ Georgia Institute of Technology
 
 School of Electrical and Computer Engineering
 
-ECE4012 Spring2020 CapstoneProject
+ECE4012 Spring 2020 Capstone Project
 
   While public buildings provide documented busy hours of operation for customers to determine 
 the best times to come, it is difficult to know the expected wait-time at any given moment. Real- 
